@@ -5,6 +5,6 @@ const Employee = mongoose.model('Employee', {
     position: { type: String },
     office: { type: String },
     salary: { type: String }
-}, 'emp');
+}, 'employees');
 
-module.exports = Employee;
+module.exports = { Employee };
